@@ -1,0 +1,22 @@
+div.container {
+  background-color: #cecece;
+  width: 120px;
+  height: 120px;
+}
+
+div.container div {
+  background-color: green;
+  width: 30%;
+  height: 30%;
+  margin: 1px;
+  float: left;
+  border: solid 1px;
+}
+
+div.container div.red-square {
+  background-color: red;
+}
+
+div.container div.blue-square {
+  background-color: blue;
+}

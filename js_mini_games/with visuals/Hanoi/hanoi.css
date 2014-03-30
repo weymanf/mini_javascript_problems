@@ -1,0 +1,40 @@
+div.container {
+  background-color: #cecece;
+  width: 600px;
+  height: 120px;
+}
+
+
+div.container div {
+  background-color: green;
+  width: 30%;
+  height: 100%;
+  margin: 1px;
+  float: left;
+  border: solid 1px;
+}
+
+
+/*div.container div.disk {
+  background-color: red;
+  height: 10%;
+  float: center;
+}*/
+
+div.pile div.disk1 {
+  width: 10%;
+}
+
+div.pile div.disk2 {
+  width: 20%;
+}
+
+div.pile div.disk3 {
+  width: 30%;
+}
+
+div.pile div.disk1, div.pile div.disk2, div.pile div.disk3 {
+  height: 10%;
+  background-color: red;
+  float: center;
+}
